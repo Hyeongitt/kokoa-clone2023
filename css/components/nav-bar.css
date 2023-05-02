@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 0;
   background-color: #f9f9fa;
-  padding: 20px 50px;
+  padding: 30px 50px;
   box-sizing: border-box;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -11,6 +11,35 @@
   display: flex;
   justify-content: space-between;
 }
-.nav_link {
+.nav__link {
   color: #2e363e;
+  position: relative;
+}
+.nav__notification {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  border-radius: 15px;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+.nav__notification__ellipsis {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  border-radius: 4px;
+  position: absolute;
+  left: 25px;
+  bottom: 30px;
 }
