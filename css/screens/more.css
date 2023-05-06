@@ -35,6 +35,8 @@
   margin-bottom: 3px;
 }
 .more-suggestions__title {
+  margin-top: 30px;
+  margin-bottom: 30px;
   font-weight: 500;
 }
 .more-icons-badge {
